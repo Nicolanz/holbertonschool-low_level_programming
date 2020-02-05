@@ -1,0 +1,1 @@
+This is the folder to resolve the challennge 0x00-hello_world in Holberton School Medellin.
