@@ -1,1 +1,1 @@
-This is the folder to resolve the 0x01-variables_if_else_while challenge in Holberton School Medellin ;).
+This is the folder to resolve the 0x01-variables_if_else_while challenge in Holberton School Medellin.
