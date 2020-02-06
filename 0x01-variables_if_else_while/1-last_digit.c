@@ -3,7 +3,11 @@
 #include <stdio.h>
 #include <string.h>
 /* more headers goes there */
-
+/**
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
 /* betty style doc for function main goes there */
 int main(void)
 {
@@ -19,13 +23,13 @@ int main(void)
 	{
 		printf("Last digit of %d is %d and is greater than 5\n", n, lastNum);
 	}
-	else if (lastNum == 0)
+	else if (lastNum < 6)
 	{
-		printf("Last digit of %d is %d and is 0\n", n, lastNum);
+		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, lastNum);
 	}
 	else
 	{
-		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, lastNum);
+		printf("Last digit of %d is %d and is 0\n", n, lastNum);
 	}
 	return (0);
 }
