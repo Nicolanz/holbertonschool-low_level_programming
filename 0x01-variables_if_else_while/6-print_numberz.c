@@ -7,16 +7,13 @@
  */
 int main(void)
 {
-	putchar('0');
-	putchar('1');
-	putchar('2');
-	putchar('3');
-	putchar('4');
-	putchar('5');
-	putchar('6');
-	putchar('7');
-	putchar('8');
-	putchar('9');
+	int numeros = 48;
+
+	while (numeros <= 57)
+	{
+		putchar(numeros);
+		numeros++;
+	}
 	putchar('\n');
 	return (0);
 }
