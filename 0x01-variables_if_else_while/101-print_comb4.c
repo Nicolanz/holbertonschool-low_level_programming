@@ -8,7 +8,6 @@
 int main(void)
 {
 	int contador;
-	int probemos;
 	int uno = 48;
 	int dos = 48;
 	int tres = 48;
@@ -39,4 +38,5 @@ int main(void)
 		uno++;
 	}
 	putchar('\n');
+	return (0);
 }
