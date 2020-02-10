@@ -1,0 +1,1 @@
+This is the folder which resolves the 0x02-functions_nested_loops challenge in Holberton School Medellin.
