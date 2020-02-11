@@ -30,9 +30,9 @@ void jack_bauer(void)
 			dos = 48;
 			tres++;
 		}
-		if (tres == 57 && dos == 48 && uno == 47)
+		if (tres == 58 && dos == 48 && uno == 47)
 		{
-			tres = 47;
+			tres = 48;
 			cuatro++;
 		}
 		uno++;
