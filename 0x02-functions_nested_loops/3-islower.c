@@ -1,17 +1,19 @@
 #include "holberton.h"
-
 /**
  * main - check the code for Holberton School students.
  *
  * Return: Always 0.
  */
-void print_alphabet(void)
+int _islower(int c)
 {
-	int a;
-
-	for (a = 97; a <= 122; a++)
+	if (c >= 65 && c <= 80)
 	{
-		_putchar(a);
+		_putchar('0');
+	}
+	else if (c >= 97 && c <= 122)
+	{
+		_putchar('1');
 	}
 	_putchar('\n');
+	return (c);
 }
