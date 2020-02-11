@@ -1,6 +1,6 @@
 #include "holberton.h"
 /**
- * _abs - Print the absolute value of an int.
+ * jack_bauer - Print the minutes and hours of that song.
  * Return: Always 0.
  */
 void jack_bauer(void)
@@ -10,7 +10,8 @@ void jack_bauer(void)
 	int dos = 48;
 	int tres = 48;
 	int cuatro = 48;
-	for(a = 0; a < 1440; a++)
+
+	for (a = 0; a < 1440; a++)
 	{
 		_putchar(cuatro);
 		_putchar(tres);
