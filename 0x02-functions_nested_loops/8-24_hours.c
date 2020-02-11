@@ -10,7 +10,7 @@ void jack_bauer(void)
 	int dos = 48;
 	int tres = 48;
 	int cuatro = 48;
-	for(a = 0; a < 1320; a++)
+	for(a = 0; a < 1440; a++)
 	{
 		_putchar(cuatro);
 		_putchar(tres);
@@ -31,7 +31,7 @@ void jack_bauer(void)
 		}
 		if (tres == 57 && dos == 48 && uno == 47)
 		{
-			tres = 48;
+			tres = 47;
 			cuatro++;
 		}
 		uno++;
