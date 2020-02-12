@@ -3,6 +3,7 @@
 
 #include <stdio.h>
 
-void postitive_or_negative(int i);
+int largest_number(int);
+void positive_or_negative(int i);
 
 #endif /* HOLBERTON_H */
