@@ -1,6 +1,6 @@
 #ifndef HOLBERTON_H
 #define HOLBERTON_H
 
-postitive_or_negative();
+void postitive_or_negative(int i);
 
 #endif /* HOLBERTON_H */
