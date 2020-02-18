@@ -23,7 +23,7 @@ void puts2(char *str)
 	 *      }
 	 *}
 	*/
-	for (i = 0; i <= contador; i += 2)
+	for (i = 0; i < contador; i += 2)
 	{
 		_putchar(str[i]);
 	}
