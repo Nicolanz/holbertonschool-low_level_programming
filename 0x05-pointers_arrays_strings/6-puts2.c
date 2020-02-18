@@ -14,12 +14,18 @@ void puts2(char *str)
 	{
 		contador++;
 	}
-	for (i = 0; i <= contador; i++)
+	/**
+	 *for (i = 0; i <= contador; i++)
+	 *{
+	 *	if (i % 2 == 0)
+	 *	{
+	 *		_putchar(str[i]);
+	 *      }
+	 *}
+	*/
+	for (i = 0; i <= contador; i += 2)
 	{
-		if (i % 2 == 0)
-		{
-			_putchar(str[i]);
-		}
+		_putchar(str[i]);
 	}
 	_putchar('\n');
 }
