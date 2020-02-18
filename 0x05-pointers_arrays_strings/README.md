@@ -1,0 +1,1 @@
+This is the folder which resolves the 0x05-pointers_arrays_strings challenge in Holberton School Medellin.
