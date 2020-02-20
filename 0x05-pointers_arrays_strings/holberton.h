@@ -10,4 +10,9 @@ void print_rev(char *s);
 void rev_string(char *s);
 void puts2(char *str);
 void puts_half(char *str);
+<<<<<<< HEAD
+=======
+void print_array(int *a, int n);
+char *_strcpy(char *dest, char *src);
+>>>>>>> 7f28e55ebe23304615bd2ddabf9aceba3497fa9a
 #endif /* _SAMPLE_HEADER_H_ */
