@@ -1,9 +1,10 @@
 #include "holberton.h"
 /**
- * _strcmp - compares two arrays.
+ * _strcmp - Compares two strings.
  * @s1: Variable which will hold the values.
  * @s2: Variable which holds the other values.
  *
+ * Return: Always 0 (Success)
  */
 int _strcmp(char *s1, char *s2)
 {
