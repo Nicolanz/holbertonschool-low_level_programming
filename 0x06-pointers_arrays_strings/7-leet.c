@@ -7,13 +7,14 @@
  */
 char *leet(char *s)
 {
-	char upper[1000] = {'A', 'E', 'O', 'T', 'L'};
-	char lower[1000] = {'a', 'e', 'o', 't', 'l'};
-	char array[1000] = {'4', '3', '0', '7', '1'};
+	char letter[] = {'A', 'a', 'E', 'e', 'O', 'o', 'T', 't', 'L', 'l'};
+	char number[] = {'4', '3', '0', '7', '1'};
 	int i;
+	int n;
 
-	for (i = 0; s[i] != '\0', i++)
+	for (i = 0; s[i] != '\0'; i++)
 	{
-		if ((s[i] == ))
+		
    	}
+	return (s);
 }
