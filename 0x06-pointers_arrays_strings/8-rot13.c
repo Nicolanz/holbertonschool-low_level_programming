@@ -15,19 +15,18 @@ char *rot13(char *s)
 	char mno[] = {'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z',
 		      'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm',
 		      'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z',
-		      'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M'};
+		      'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M',
+		      'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'};
 	int i;
 	int c;
 
 	for (i = 0; s[i] != '\0'; i++)
 	{
-		for (c = 0; (abc[c] != '\0') && (mno[c] != '\0'); c++)
+		for (c = 0; abc[c] != '\0'; c++)
 		{
 			if (s[i] == abc[c])
 			{
-				abc[c] = mno[c];
-				s[i] = abc[c];
-				abc[c] = mno[c + 13];
+				s[i] = mno[c];
 				break;
 			}
 		}
