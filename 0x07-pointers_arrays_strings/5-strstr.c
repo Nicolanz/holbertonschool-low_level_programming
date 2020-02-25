@@ -1,9 +1,9 @@
 #include "holberton.h"
 #include <stdio.h>
 /**
- * _strchr - Function to return a pointer to the character specified.
- * @s: Variable which holds the string.
- * @c: Character.
+ * _strstr - Function that locates a substring.
+ * @haystack: Variable which holds the string.
+ * @needle: Second string to campare.
  *
  * Return: Always 0 (Success)
  */
