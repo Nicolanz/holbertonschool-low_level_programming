@@ -1,9 +1,7 @@
 #include "holberton.h"
 /**
- * _memset - Function to fill a variable with a constant.
- * @s: Variable which holds the string.
- * @b: Variable to replace.
- * @n: number of times it is repeated.
+ * _puts_recursion - Function to puts with recursion.
+ * @s: Strings.
  * Return: Always 0 (Success)
  */
 void _puts_recursion(char *s)
@@ -14,5 +12,12 @@ void _puts_recursion(char *s)
 	{
 		_putchar(s[i]);
 	}
-	_putchar('\n');
+	if (s[i] != '\0')
+	{
+		_puts_recursion(s);
+	}
+	else
+	{
+		_putchar('\n');
+	}
 }
