@@ -2,19 +2,14 @@
 /**
  * _puts_recursion - Function to puts with recursion.
  * @s: Strings.
- * Return: Always 0 (Success)
- */
+ * Return: Always 0 (Sucess)
+*/
 void _puts_recursion(char *s)
 {
-	int i;
-
-	for (i = 0; s[i] != '\0'; i++)
+	_putchar(*s);
+	if (*s != '\0')
 	{
-		_putchar(s[i]);
-	}
-	if (s[i] != '\0')
-	{
-		_puts_recursion(s);
+		_puts_recursion(s + 1);
 	}
 	else
 	{
