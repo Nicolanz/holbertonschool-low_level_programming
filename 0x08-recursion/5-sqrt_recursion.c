@@ -2,6 +2,7 @@
 #include <stdio.h>
 /**
  * _sqrt_recursion - Function to get the root square of a number.
+ * recursion - Functions with has the recursion.
  * @n: Number to get the square.
  * @i: Iterator.
  * Return: Always 0 (Sucess)
