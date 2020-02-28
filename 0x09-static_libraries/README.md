@@ -1,0 +1,1 @@
+This is the folder which resolves the 0x09-static_libraries challenge in Holberton School Medellin.
