@@ -1,6 +1,5 @@
 #include "holberton.h"
 #include <stdio.h>
-
 /**
  * main - Entry point
  * @argc: Return the number of arguments in the command line.
@@ -10,6 +9,7 @@
  */
 int main(int argc, char *argv[] __attribute__((unused)))
 {
+	argc = argc - 1;
 	printf("%d\n", argc);
 	return (0);
 }
