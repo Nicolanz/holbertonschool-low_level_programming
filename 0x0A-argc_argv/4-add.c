@@ -5,7 +5,7 @@
  * main - Entry Point
  * @argc: Number of arguments in the command line
  * @argv: String of arguments in the command line
- *
+ * Return: 0 or 1
  */
 int main(int argc, char *argv[])
 {
