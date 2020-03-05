@@ -8,11 +8,16 @@
  * Return: 0
  *
 */
-int main(int argc __attribute__((unused)), char *argv[])
+int main(int argc, char *argv[])
 {
 	int c;
 	int contador = 0;
 
+	if (argc == 1)
+	{
+		printf("Error\n");
+		return (1);
+	}
 	c = atoi(argv[1]);
 	while (c > 0)
 	{
@@ -41,10 +46,6 @@ int main(int argc __attribute__((unused)), char *argv[])
 			c -= 1;
 			contador++;
 		}
-	}
-	if (c <= 0)
-	{
-		printf("0\n");
 	}
 	printf("%d\n", contador);
 	return (0);
