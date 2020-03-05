@@ -1,44 +1,47 @@
 #include "holberton.h"
 #include <stdio.h>
 #include <stdlib.h>
-
 /**
- *
- *
- *
- *
+ * main - Return the minimum of coins to make change
+ * @argc: Number of elements in the command line.
+ * @argv: Array of stings of the arguments in the command line
+ * Return: 0
  *
 */
 int main(int argc __attribute__((unused)), char *argv[])
 {
 	int c;
-	int i;
+	int contador = 0;
 
 	c = atoi(argv[1]);
-	for (i = 0; c >= 0; i++)
+	while (c > 0)
 	{
 		if (c >= 25)
 		{
-			c = c - 25;
+			c -= 25;
+			contador++;
 		}
-		else if (c >= 10)
+		else if (c >= 10 && c < 25)
 		{
-			c = c - 10;
+			c -= 10;
+			contador++;
 		}
-		else if (c >= 5)
+		else if (c >= 5 && c < 10 && c < 25)
 		{
-			c = c - 5;
+			c -= 5;
+			contador++;
 		}
-		else if (c >= 2)
+		else if (c >= 2 && c < 5 && c < 10 && c < 25)
 		{
-			c = c - 2;
+			c -= 2;
+			contador++;
 		}
-		else if (c >= 1)
+		else if (c >= 1 && c < 2 && c < 5 && c < 10 && c < 25)
 		{
-			c = c - 1;
-			break;
+			c -= 1;
+			contador++;
 		}
 	}
-	printf("%d", i);
+	printf("%d\n", contador);
 	return (0);
 }
