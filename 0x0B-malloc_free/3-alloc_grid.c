@@ -2,12 +2,12 @@
 #include <stdlib.h>
 #include <stdio.h>
 /**
+ * alloc_grid - Function to return a pointer to a 2D array
+ * @width: Number of columns
+ * @height: Number of files
+ * Return: Pointer.
  *
- *
- *
- *
- *
-*/
+ */
 int **alloc_grid(int width, int height)
 {
 	int **array;
@@ -15,14 +15,18 @@ int **alloc_grid(int width, int height)
 	int b;
 
 	array = malloc(height * sizeof(int *));
-	if (array == NULL)
+	if (array == NULL || height == 0)
 	{
 		return (NULL);
 	}
 	for (i = 0; i < height; i++)
 	{
 		array[i] = malloc(width * sizeof(int));
-		if (array[i] == NULL)
+		if (width == 0)
+		{
+			return (NULL);
+		}
+		else if (array[i] == NULL)
 		{
 			for (i = 0; i < width; i++)
 			{
