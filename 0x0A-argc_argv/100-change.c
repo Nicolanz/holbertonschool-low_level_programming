@@ -42,6 +42,10 @@ int main(int argc __attribute__((unused)), char *argv[])
 			contador++;
 		}
 	}
+	if (c <= 0)
+	{
+		printf("0\n");
+	}
 	printf("%d\n", contador);
 	return (0);
 }
