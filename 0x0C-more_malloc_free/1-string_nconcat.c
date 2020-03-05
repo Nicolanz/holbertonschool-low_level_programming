@@ -11,17 +11,13 @@
  */
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
-	unsigned int i;
-	unsigned int b;
-	unsigned int c;
+	unsigned int i, b, c;
 	char *array;
 
 	for (i = 0; s1 && s1[i]; i++)
-	{
-	}
+	{}
 	for (b = 0; s2 && s2[b]; b++)
-	{
-	}
+	{}
 	c = b;
 	if (n < b)
 	{
@@ -49,7 +45,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		for (b = 0; s2 && b < n; b++)
 		{
 			array[i] = s2[b];
-		       	i++;
+			i++;
 		}
 	}
 
