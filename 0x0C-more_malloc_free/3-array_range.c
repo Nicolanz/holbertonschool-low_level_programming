@@ -20,7 +20,7 @@ int *array_range(int min, int max)
 	}
 	cantidad = max - min;
 	array = malloc(sizeof(int) * cantidad + 1);
-	for (i = contador; i <= max; i++)
+	for (i = min; i <= max; i++)
 	{
 		array[contador] = i;
 		contador++;
