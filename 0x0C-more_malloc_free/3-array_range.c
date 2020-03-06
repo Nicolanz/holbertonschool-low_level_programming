@@ -4,7 +4,7 @@
 /**
  * array_range - Function to crate an array of intergers
  * @min: Min number of array
- * @max: Max number of arrays
+ * @max: Max number of array
  * Return: array.
  */
 int *array_range(int min, int max)
@@ -18,10 +18,10 @@ int *array_range(int min, int max)
 		return (NULL);
 	}
 	cantidad = max - min;
-	array = malloc(sizeof(int) * cantidad + 1);
+	cantidad++;
+	array = malloc(sizeof(int) * cantidad);
 	if (array == NULL)
 	{
-		free(array);
 		return (NULL);
 	}
 	for (cantidad = min; cantidad <= max; cantidad++)
