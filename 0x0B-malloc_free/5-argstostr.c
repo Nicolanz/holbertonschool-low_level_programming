@@ -2,13 +2,13 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- *
- *
- *
- *
+ * contador - Function to iterate num of arguments.
+ * @ac: Argc of the command line
+ * @av: Array of strings of the arguments in the command line
+ * Return: Tam.
  *
  */
-int contador (int ac, char **av)
+int contador(int ac, char **av)
 {
 	int i;
 	int b;
@@ -25,6 +25,12 @@ int contador (int ac, char **av)
 	tam++;
 	return (tam);
 }
+/**
+ * argstostr - Concatenates the strings and assign them into an array
+ * @ac: Number of arguments in the command lines
+ * @av: Array od strings of arguments in the command line
+ * Return: array
+ */
 char *argstostr(int ac, char **av)
 {
 	char *array;
