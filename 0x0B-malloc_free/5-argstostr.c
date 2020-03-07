@@ -39,6 +39,10 @@ char *argstostr(int ac, char **av)
 	int j = 0;
 	int tam = contador(ac, av);
 
+	if (ac == 0 || av == NULL)
+	{
+		return (NULL);
+	}
 	array = malloc(sizeof(char) * tam);
 	if (array == NULL)
 	{
