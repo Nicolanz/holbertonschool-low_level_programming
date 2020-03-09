@@ -1,0 +1,1 @@
+This is the folder which resolves the 0x0E-structures_typedef challenge about structures and typedef in C at Holberton School Medellin.
