@@ -1,0 +1,1 @@
+This is the folder which resolves the 0x10-variadic_functions about Variadic Functions in C at Holberton School Medellin.
