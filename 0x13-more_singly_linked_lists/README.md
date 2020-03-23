@@ -1,0 +1,1 @@
+This is the folder which resolves the 0x13-more_singly_linked_lists challenge about linked lists at Holberton School Medellin.
