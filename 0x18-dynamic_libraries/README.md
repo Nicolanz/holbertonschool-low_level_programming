@@ -1,0 +1,1 @@
+This is the folder which resolves the **0x18-dynamic_libraries** challenge at Holberton School Medellin.
