@@ -1,6 +1,10 @@
 #ifndef _SAMPLE_HEADER_H
 #define _SAMPLE_HEADER_H
 
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
 int _putchar(char c);
 /**
  * struct dog - Struct about dogs
