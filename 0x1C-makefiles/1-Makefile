@@ -1,7 +1,5 @@
-#!/usr/bin/env bash
-# compile c files
-all: generate
 CC=gcc
 SRC=$(wildcard *.c)
+all: generate
 generate:
-	${CC} ${SRC} -o holberton
+	${CC} $(SRC) -o holberton
