@@ -2,6 +2,6 @@
 # compile c files
 all: generate
 CC=gcc
-SRC:=$(wildcard *.c)
+SRC=$(wildcard *.c)
 generate:
 	${CC} ${SRC} -o holberton
