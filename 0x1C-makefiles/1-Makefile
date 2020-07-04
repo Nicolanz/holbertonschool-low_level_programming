@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # compile c files
 all: generate
-CC = gcc
-SRC = *.c
+CC=gcc
+SRC="*.c"
 generate:
-	${CC} ${SRC} -o holberton
+	${CC} "${SRC}" -o holberton
