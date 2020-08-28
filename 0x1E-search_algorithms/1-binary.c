@@ -29,6 +29,11 @@ int binary_search(int *array, size_t size, int value)
 	int *end = (int *)(&array[size - 1]);
 	int *mid;
 
+	if (array == NULL)
+	{
+		return (-1);
+	}
+
 	while (array <= end)
 	{
 		printIt(array, end);
