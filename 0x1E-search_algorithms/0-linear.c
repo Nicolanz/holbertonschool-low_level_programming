@@ -5,6 +5,7 @@
  * @size: Size of the array
  * @value: value to find
  * Return: idx if succeed or 0 if fails
+ *
  */
 int linear_search(int *array, size_t size, int value)
 {
